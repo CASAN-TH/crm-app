@@ -1,3 +1,4 @@
+import { MatButtonModule } from '@angular/material/button';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ToolbarComponent } from './toolbar.component';
@@ -9,7 +10,8 @@ import {MatIconModule} from '@angular/material/icon';
   declarations: [ToolbarComponent],
   imports: [
     CommonModule,
-    MatIconModule
+    MatIconModule,
+    MatButtonModule
   ],
   exports:[ToolbarComponent]
 })
