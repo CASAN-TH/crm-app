@@ -1,4 +1,3 @@
-import { ToolbarModule } from './modules/toolbar/toolbar.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
