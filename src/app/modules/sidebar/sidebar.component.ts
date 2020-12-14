@@ -7,6 +7,32 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 
+  icons = [
+    {
+      "name": "Detail",
+      "icon": '../../assets/icon/icon_menu/deals.svg'
+    },
+    {
+      "name": "Contract",
+      "icon": '../../assets/icon/icon_menu/contacts.svg'
+    },
+    {
+      'name': 'Companies',
+      'icon': '../../assets/icon/icon_menu/companies.svg'
+    },
+    {
+      'name': 'Product',
+      'icon': '../../assets/icon/icon_menu/products.svg'
+    },
+    {
+      'name': 'Activity',
+      'icon': '../../assets/icon/icon_menu/activities.svg'
+    },
+    {
+      "name": "Dashboards",
+      "icon": "../../assets/icon/icon_menu/dashboards.svg"
+    },
+  ]
   constructor() { }
 
   ngOnInit(): void {
