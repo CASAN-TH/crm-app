@@ -9,7 +9,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
   imports: [
     CommonModule,
     MatToolbarModule
-
   ]
 })
 export class HeaderModule { }
