@@ -6,7 +6,8 @@ import { SearchbarModule } from '../searchbar/SearchbarModule';
 import { ToolbarModule } from '../toolbar/toolbar.module'
 import {ProfileModule} from '../profile/profile.module'
 import { FlexLayoutModule } from '@angular/flex-layout';
-
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -20,7 +21,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     SearchbarModule,
     ToolbarModule,
     ProfileModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatIconModule,
+    MatButtonModule
 
 
 
