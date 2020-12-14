@@ -11,7 +11,7 @@ import { SearchbarComponent } from './searchbar.component';
   imports: [
     CommonModule
   ],
-  exports:[
+  exports: [
     SearchbarComponent
   ]
 })
