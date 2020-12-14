@@ -1,3 +1,4 @@
+import { ToolbarModule } from './modules/toolbar/toolbar.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -14,7 +15,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSidenavModule
+    MatSidenavModule,
+    ToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
