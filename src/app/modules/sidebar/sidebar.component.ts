@@ -9,11 +9,11 @@ export class SidebarComponent implements OnInit {
 icon=[
   {
     "name":"Detail",
-    "icon": '../../'
+    "icon":"../../../assets/icon/icon_menu/deals.svg"
   },
   {
     "name":"Contract",
-    "icon":"../../../assets/icon/icon_menu/contract.svg"
+    "icon":"../../../assets/icon/icon_menu/contracts.svg"
   },
   {
     "name":"Companies",
@@ -21,15 +21,15 @@ icon=[
   },
   {
     "name":"Product",
-    "icon":"../../../assets/icon/icon_menu/product.svg"
+    "icon":"../../../assets/icon/icon_menu/products.svg"
   },
   {
     "name":"Activity",
-    "icon":"../../../assets/icon/icon_menu/activity.svg"
+    "icon":"../../../assets/icon/icon_menu/activities.svg"
   },
   {
     "name":"Dashboards",
-    "icon":"../../../assets/icon/icon_menu/dashboard.svg"
+    "icon":"../../../assets/icon/icon_menu/dashboards.svg"
   },
 ]
   constructor() { }
