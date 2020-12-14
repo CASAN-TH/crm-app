@@ -5,6 +5,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { SearchbarModule } from '../searchbar/SearchbarModule';
 import { ToolbarModule } from '../toolbar/toolbar.module'
 import {ProfileModule} from '../profile/profile.module'
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 
@@ -18,7 +19,8 @@ import {ProfileModule} from '../profile/profile.module'
     MatToolbarModule,
     SearchbarModule,
     ToolbarModule,
-    ProfileModule
+    ProfileModule,
+    FlexLayoutModule
 
 
 

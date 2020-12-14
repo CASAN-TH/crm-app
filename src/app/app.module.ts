@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { HeaderModule } from './modules/header/header.module';
 import { SidebarModule } from './modules/sidebar/sidebar.module'
+import { LayoutModule } from '@angular/cdk/layout';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SidebarModule } from './modules/sidebar/sidebar.module'
     BrowserAnimationsModule,
     MatSidenavModule,
     HeaderModule,
-    SidebarModule
+    SidebarModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
