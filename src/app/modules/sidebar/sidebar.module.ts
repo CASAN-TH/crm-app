@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { SidebarComponent } from './sidebar.component';
 import {MatListModule} from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
 
 
 @NgModule({
@@ -10,7 +11,8 @@ import { MatIconModule } from '@angular/material/icon';
   imports: [
     CommonModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    MatButtonModule,
   ],
   exports:[SidebarComponent]
 })
