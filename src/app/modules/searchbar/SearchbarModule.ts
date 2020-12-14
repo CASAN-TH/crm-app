@@ -10,6 +10,8 @@ import { SearchbarComponent } from './searchbar.component';
   declarations: [SearchbarComponent],
   imports: [
     CommonModule
+  
+ 
   ],
   exports: [
     SearchbarComponent
