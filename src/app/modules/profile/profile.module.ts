@@ -1,13 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProfileComponent } from './profile.component';
+import { MatButtonModule } from '@angular/material/button';
 
 
 
 @NgModule({
   declarations: [ProfileComponent],
   imports: [
-    CommonModule
+    CommonModule,
+
+    MatButtonModule
   ],
   exports: [ProfileComponent]
 })
