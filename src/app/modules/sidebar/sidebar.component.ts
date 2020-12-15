@@ -10,27 +10,27 @@ export class SidebarComponent implements OnInit {
   icons = [
     {
       "name": "Detail",
-      "icon": '../../assets/icon/icon_menu/deals.svg'
+      "icon": 'icon-deals'
     },
     {
       "name": "Contract",
-      "icon": '../../assets/icon/icon_menu/contacts.svg'
+      "icon": 'icon-people_outline'
     },
     {
       'name': 'Companies',
-      'icon': '../../assets/icon/icon_menu/companies.svg'
+      'icon': 'icon-companies'
     },
     {
       'name': 'Product',
-      'icon': '../../assets/icon/icon_menu/products.svg'
+      'icon': 'icon-products'
     },
     {
       'name': 'Activity',
-      'icon': '../../assets/icon/icon_menu/activities.svg'
+      'icon': 'icon-activities'
     },
     {
       "name": "Dashboards",
-      "icon": "../../assets/icon/icon_menu/dashboards.svg"
+      "icon": "icon-dashboards"
     },
   ]
   constructor() { }
