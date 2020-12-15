@@ -1,26 +1,33 @@
-<div fxLayout="row wrap">
-  <mat-toolbar color="primary">
-    <div fxLayout="column" fxFlex="50">
-      <div fxLayout="row">
-        <div>
-          <p>logo</p>
-        </div>
-        <div>
-          <app-searchbar></app-searchbar>
-        </div>
-      </div>
-    </div>
-    <div fxLayout="column" fxFlex="50" fxLayoutAlign="start end">
-      <div fxLayout="row">
-        <div>
-          <app-toolbar></app-toolbar>
-        </div>
-        <div>
+<!-- <div fxLayout="row wrap"> -->
+  <!-- <mat-toolbar color="primary"> -->
+    <!-- <div fxLayout="column" fxFlex="50"> -->
+      <!-- <div fxLayout="row"> -->
+
+          <!-- <img src ="../../../assets/icon/icon Header/aon-logo.svg"> -->
+
+
+          <!-- <app-searchbar></app-searchbar> -->
+
+      <!-- </div> -->
+    <!-- </div> -->
+    <!-- <div fxLayout="column" fxFlex="50" fxLayoutAlign="start end"> -->
+      <!-- <div fxLayout="row"> -->
+          <!-- <app-toolbar></app-toolbar>
+
           <app-profile></app-profile>
-        </div>
-      </div>
-    </div>
+      </div> -->
+    <!-- </div> -->
+  <!-- </mat-toolbar> -->
+<!-- </div> -->
+
+<mat-toolbar color="primary">
 
 
-  </mat-toolbar>
-</div>
+  <mat-toolbar-row>
+    <span><img src ="../../../assets/icon/icon Header/aon-logo.svg"></span>
+    <app-searchbar></app-searchbar>
+    <span class="example-spacer"></span>
+    <app-toolbar></app-toolbar>
+    <app-profile></app-profile>
+  </mat-toolbar-row>
+</mat-toolbar>

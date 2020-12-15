@@ -1,1 +1,14 @@
-<p><button mat-fab>{{ birthday }}</button></p>
+<!-- <button mat-fab>{{ birthday |slice:0:1 }}</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu> -->
+<button mat-mini-fab [matMenuTriggerFor]="menu">
+  {{ birthday |slice:0:1 }}
+</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>
+    <mat-icon>power_settings_new</mat-icon>
+    <span>Logout</span>
+  </button>
+</mat-menu>
