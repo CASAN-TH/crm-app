@@ -2,21 +2,16 @@
 //     border-radius:45px;
 //     height: 30px;
 // }
-.searchbar{
-    background-color: whitesmoke;
-    color: black;
-    border-radius: 50px;
-    height: 45px;
-    margin-top: 12.5px;
-}
 
-input{ 
+
+input{
     position: absolute;
     margin-top: -15px;
     margin-left: 15px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 50px;
+    height: 25px;
+    margin-top: -15px;
 }
 
-.searchicon{
-    margin-top: top 7px;
-    margin-right: 10px;
-}
