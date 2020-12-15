@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileComponent implements OnInit {
 
-  birthday='Arm';
+  birthday='arm';
 
   constructor() { }
 
