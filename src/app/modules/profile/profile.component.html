@@ -4,7 +4,7 @@
   <button mat-menu-item>Item 2</button>
 </mat-menu> -->
 <button mat-mini-fab [matMenuTriggerFor]="menu">
-  {{ birthday |slice:0:1 | uppercase }}
+  {{ birthday |slice:0:1 | titlecase }}
 </button>
 <mat-menu #menu="matMenu">
   <button mat-menu-item>
