@@ -14,7 +14,7 @@ export class SidebarComponent implements OnInit {
     },
     {
       "name": "Contract",
-      "icon": 'icon-people_outline'
+      "icon": 'icon-contacts11'
     },
     {
       'name': 'Companies',
